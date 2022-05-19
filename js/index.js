@@ -1,0 +1,12 @@
+var userName = prompt("Ismingizni kiriting!", "Ism")
+var userYear = prompt("Yilingizni kiriting", "2000")
+var userAge = prompt("Yoshingizni kiriting", "22")
+var userJob = prompt("Kasbingizni kiriting", "Dasturchi")
+var userPhone = prompt("Telefoningiz qanday?", "iPhone")
+var userAdress = prompt("Qayerda yashaysiz", "Toshkent")
+var userSurname = prompt("Familiyangizni kiriting", "Mirziyoyev")
+var userNotebook = prompt("Notebookingizni nomini kiriting!", "MacBook")
+var userScool = prompt("Maktabingizni kiriting!", "238")
+var userPhoneNumber = prompt("Raqamingizni kiriting!", "+998900052627")
+
+console.log("Ism: " + userName + "Yili: " + userYear+ "Yoshi " + userAge + "Kasbi " + userJob + "Telefoni: " + userPhone + "Manzili: " + userAdress + "Familiyasi: " + userSurname + "Kompyuteri: " + userNotebook + "Maktabi: " + userScool + "Telefon raqami: " + userPhoneNumber)
